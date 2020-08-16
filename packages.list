@@ -1,0 +1,11 @@
+sudo
+dbus
+procps-ng
+xorg-server
+xorg-apps
+xfce4
+xfce4-terminal
+xorg-server-xvfb
+x11vnc
+openssh
+ttf-dejavu
