@@ -1,4 +1,4 @@
-FROM archlinux/base
+FROM archlinux
 
 MAINTAINER jhx <jhx0x00@gmail.com>
 
