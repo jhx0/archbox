@@ -9,3 +9,5 @@ xorg-server-xvfb
 x11vnc
 openssh
 ttf-dejavu
+vim
+nano
