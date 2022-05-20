@@ -1,15 +1,20 @@
+VERSION=1.1
+
+SSH_PORT=6001
+VNC_PORT=6002
+
 .PHONY: build run
 
 build:
-	docker build -t archbox:1.0 .
+	docker build -t archbox:$(VERSION) .
 
 run:
 	docker run \
 		-h archbox \
 		--detach \
-		-p 6001:22 \
-		-p 6002:5900 \
-		archbox:1.0 \
+		-p $(SSH_PORT):22 \
+		-p $(VNC_PORT):5900 \
+		archbox:$(VERSION) \
 
 shell:
-	docker exec -it archbox:1.0 bash
+	docker exec -it archbox:$(VERSION) bash
