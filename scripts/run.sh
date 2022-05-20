@@ -1,6 +1,7 @@
 #!/bin/sh
 
-RESOLUTION='1366x768'
+# Set your desired VNC resolution here
+RESOLUTION='1920x1080'
 
 Xvfb :3 -screen 0 ${RESOLUTION}x16 &
 
