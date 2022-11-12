@@ -6,7 +6,7 @@
 **Q:** What desktop is provided?   
 **A:** By default, Xfce is installed
 
-## USAGE:
+## USAGE:   
 1. Clone/download the repository
 2. Unpack/cd into the directory
 3. Run
