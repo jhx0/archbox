@@ -1,6 +1,6 @@
-FROM archlinux
+FROM archlinux:base
 
-MAINTAINER jhx <jhx0x00@gmail.com>
+LABEL maintainer="jhx <jhx0x00@gmail.com>"
 
 ADD scripts/run.sh /usr/bin
 
