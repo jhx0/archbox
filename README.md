@@ -6,6 +6,10 @@
 **Q:** What desktop is provided?   
 **A:** By default, Xfce is installed
 
+## Screenshot:
+![xfce](https://user-images.githubusercontent.com/37046652/201478186-0a3c18f1-b6cf-469a-912b-4275ddf6cd0b.png)
+
+
 ## USAGE:   
 1. Clone/download the repository
 2. Unpack/cd into the directory
