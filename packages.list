@@ -1,3 +1,6 @@
+base-devel
+wget
+which
 sudo
 dbus
 procps-ng
@@ -11,3 +14,8 @@ openssh
 ttf-dejavu
 vim
 nano
+man-db
+man-pages
+zsh
+fish
+firefox
