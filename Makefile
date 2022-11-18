@@ -15,6 +15,3 @@ run:
 		-p $(SSH_PORT):22 \
 		-p $(VNC_PORT):5900 \
 		archbox:$(VERSION) \
-
-shell:
-	docker exec -it archbox:$(VERSION) bash
