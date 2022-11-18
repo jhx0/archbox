@@ -2,8 +2,10 @@
 
 pacman -Syyu --noconfirm
 pacman -S --noconfirm - < /packages.list
+pacman -Runc --noconfirm xfce4-power-manager
+pacman -Scc --noconfirm
 
-# Generate host keys for SSHD
+# generate host keys for sshd
 ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N '' -t rsa
 ssh-keygen -f /etc/ssh/ssh_host_dsa_key -N '' -t dsa
 
