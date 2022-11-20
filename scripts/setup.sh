@@ -31,3 +31,7 @@ echo -e "archbox\narchbox" | passwd archbox
 # a password
 mkdir -p /etc/sudoers.d
 echo "archbox ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/archbox
+
+# systemd related tasks
+systemd-firstboot --setup-machine-id
+systemctl preset-all
