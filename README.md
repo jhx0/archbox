@@ -7,8 +7,7 @@
 **A:** By default, Xfce is installed
 
 ## Screenshot:
-![xfce](https://user-images.githubusercontent.com/37046652/201478186-0a3c18f1-b6cf-469a-912b-4275ddf6cd0b.png)
-
+![archbox](https://user-images.githubusercontent.com/37046652/202692379-9d49decc-7a1d-490d-886f-31b5f8fdb884.png)
 
 ## USAGE:   
 1. Clone/download the repository
@@ -26,3 +25,10 @@ $ make run
 **NOTE:**  
 This will expose **VNC** under the port **6002** and **SSH** on port **6001**.  
 (You can use your favorite **VNC** client to connect to the given port on your local system)
+
+## Configuration
+**Packages:**   
+Add the packages you ned to **packages.list** and build the container again.  
+  
+**Resolution:**   
+The desired resolution (**VNC**) can be set in the **run.sh** shellscript (**RESOLUTION** variable).  
